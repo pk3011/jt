@@ -11,7 +11,7 @@ WORKDIR /src
 # Install dependencies
 RUN  npm install
 
-EXPOSE 3500
+EXPOSE 443
 
 ENTRYPOINT ["node", "./src/index.js"]                              
 
