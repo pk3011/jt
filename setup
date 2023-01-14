@@ -1,0 +1,30 @@
+Setting up JIOTV server in easy steps
+
+Step 1: Spin up an AWS EC2 instance or any other server from your favourite provider. It must be in India region.
+You guys can use proceed without a key pair
+i m using my existing keys
+The server is now creating. It will take around 5 mins
+I m pausing video and will continue once it is launched
+Server is now started
+Server is now logged in
+
+
+
+Step 2: Installation of docker on Ubuntu.
+If you are getting this output, your docker is successfully installed
+Container started. Verify using docker container ls
+
+Step 3: Starting jiotv container.
+Container is now up and running
+
+Step 4: 3500 port opening in Security Groups.
+We have completed this step while starting server.
+Verify it by this way i m now showing
+Port 3500 is opened
+
+Step 5: Generating playlist and playing tv.
+Now copy dns or public ip of server and mention port in browser
+This console is same as you have setup in mobile. All steps are now same. I will still show all
+Logging in with my usename and password
+Login successful
+
